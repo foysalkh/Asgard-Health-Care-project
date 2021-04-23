@@ -1,0 +1,200 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+
+}
+img{
+    vertical-align: middle;
+}
+a, a:hover{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+h1,h2,h3,h4,h5,h6, a, input, button, ul,ol,p{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family: 'PT Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#ffff;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+#header_part{
+    background: rgb(13, 13, 32);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+   border: none;
+   color: #fff;
+   background-color: rgb(255, 0, 68);
+   z-index: -1;
+   border-radius: 2px ;
+   margin: 10px;
+   box-shadow: inset 0 0 0 0 #f9e506;
+   transition:ease-out 0.3s ;
+   font-size: 16px ;
+   outline: none ;
+ 
+
+   
+   
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background:rgb(51, 51, 150);
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+    /* box-shadow: inset 50% 0 0 0 #f9e506;  */
+}
+
+
+.artical_content {
+    border-bottom:2px solid rgb(13, 13, 32); ;
+    
+}
+#artical_part .artical_content 
+h2{
+    padding: 1ch;
+    font-family:'PT Sans', sans-serif;  
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 6px ;
+    background-color:#fff
+}
+#artical_part .artical_content 
+p{
+    font-family:'PT Sans', sans-serif; 
+    color: rgb(41, 38, 38);
+    padding: 1ch;  
+    font-style: normal;
+    font-size: 16px;
+}
+#services_part{
+    padding-top: 30px;
+
+} 
+#services_part .ser_heading h2{
+    padding: 1px;
+    font-family:'PT Sans', sans-serif;  
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 6px ;
+    
+} 
+#services_part .ser_main h3{
+    padding: 20px;
+    font-family:'PT Sans', sans-serif;  
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase; 
+}
+#services_part .ser_main p{
+
+    font-family:'PT Sans', sans-serif; 
+    color: rgb(41, 38, 38);
+    padding-bottom: 40px;  
+    font-style: normal;
+    font-size: 16px;
+}
+#services_part .ser_main a{
+ padding: 10px  25px;
+ border: 1px solid ;
+ border-radius: 25px;   
+}
+#services_part .ser_main a:hover{
+ background:rgb(41, 38, 38);
+ color: #fff;
+
+       
+   }
+
+#services_part .ser_main img{
+  
+     transition: all ease 1s ; 
+     
+}
+
+#services_part .ser_main img:hover{
+  transform: scale(1.2);
+          
+}
+
+#services_part {
+border-bottom:2px solid rgb(13, 13, 32); ;
+padding-bottom: 30px;
+}  
+ /*------ #dots { 
+    
+   visibility: hidden;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   top: 1;
+   width: 150px;
+   z-index: -1;
+   margin: -20px;
+   
+}
+*/
+
+
+.ser_artical .hidden-img{
+    display: none;
+    margin-top:-8rem;
+    margin-left:-8rem;
+    
+}
+
+.ser_artical:hover .hidden-img{
+    display: inline-block;
+    transform: scale(1.2);
+    
+}
+
+
+
+/*--------Start-footer----*/
+
+
+
+footer{
+    text-align: end;
+    padding:3px;
+    padding-top: 20px;
+    background-color: rgb(59, 38, 38);
+    color: #fff;
+    
+}
+footer h6{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(0, 95, 95);
+}
+
+/*--------end-footer----*/
+
+
+
+
+
+
+
+      
+
+
